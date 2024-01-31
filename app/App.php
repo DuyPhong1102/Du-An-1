@@ -31,7 +31,12 @@ class App
     function handleUrl()
     {
         $url = $this->getUrl();
-        
+
+        //index.php
+        //home/index/1
+        //[1]=>products
+        //[2]=>detail
+
 
         $urlArr = array_filter(explode("/", $url));
 
